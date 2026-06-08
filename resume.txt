@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Student registration Form</title>
+</head>
+<body>
+<h1 align="center">Student Registration Form</h1>
+<form>
+<table align="center" cellpadding="8">
+<tr>
+<td><label for="name">Name:</label></td>
+<td>
+<input type="text" id="name"name="name">
+</td>
+</tr>
+<tr>
+<td><label for="Fname">Father's Name:</label></td>
+<td>
+<input type="text" id="Fname" Name="Fname"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" id="Male" name="Gender" >
+<label for="Male">Male</label>
+<input type="radio" id="Female" name="Gender">
+<label for="Female">Female</label>
+</td>
+</tr>
+<tr>
+<td><label for="DOB">Date Of Birth:</label>
+</td>
+<td>
+<input type="Date" id="DOB" name="DOB">
+</td>
+</tr>
+<tr>
+<td><label for="Trade">Trade:</label>
+</td>
+<td>
+          <select id="Trade" Name="Trade">
+		  <option value="">= =select trade= = </option>
+		  <option>COPA</option>
+		  <option>ELECTRICIAN</option>
+		  <option>FITTER</option>
+		  <option>WELDER</option>
+		  <option>MECHANICAL</option>
+		  </select>
+		  </td>
+		  </tr>
+		  <tr>
+		  <td><label for="address">Address:</label>
+		  </td>
+		  <td>
+		  <input type="address"name="address"></td>
+		  </tr>
+		  <tr>
+		  <td>
+		  <label for="mobile number">Mobile Number:</label>
+		  </td>
+		  <td>
+		  <input type="tel" id="mobile"number="mobile"></td>
+		  </tr>
+		  <tr>
+		  <td><label for="email">Email:</label></td>
+		  <td><input type="email" id="email"name="email">
+		  </td>
+		  </tr>
+		  <tr>
+		  <td>Hobbies:</td>
+		  <td> 
+		  <input type="checkbox" id="singing" name="Hobby">
+		  <label for="Hobbies">Singer</label>
+		  <input type="checkbox" id="Dancing"name="Hobby">
+		  <label for="Hobbies">Dancer</label>
+		  </td>
+		  </tr>
+         <tr>
+		 <td><label for="file">Upload File:</label></td>
+		 <td>
+		 <input type="file" id="file" name="file">
+		 </td>
+		 </tr>
+		 <td colspan="2" align="center">
+		 <input type="submit" value="Submit">
+		 <input type="reset" value="Reset">
+		 </td>
+		 </tr>
+		 
+		
+
+
+</table>
+</form>
+</body>
+</html>
